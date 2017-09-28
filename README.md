@@ -9,6 +9,10 @@ Instructiions:
 3. Run npm install
 4. Run npm start
 
+In your browser, navigate to http://localhost:8080
+
+The page shows the standings from a demo ping pong league, and has a button to add new game results and re-load the demo data.
+
 Unit Tests:
 1. Open new command shell in directory.
 2. Run npm test
