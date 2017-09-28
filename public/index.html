@@ -1,0 +1,34 @@
+<!-- index.html -->
+<!doctype html>
+
+<!-- app -->
+<html ng-app="pong">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Ping Pong League</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"><!-- load bootstrap -->
+    <style>
+        html                    { overflow-y:scroll; }
+    </style>
+
+    <!-- script -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><!-- load jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script><!-- load angular -->
+    <script src="api.js"></script>
+	<script src="directives.js"></script>
+
+</head>
+<!-- controller -->
+<body ng-controller="mainController">
+
+<!-- directives -->
+<standings></standings>
+<buttons></buttons> 
+<results></results>
+
+</body>
+</html>

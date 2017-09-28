@@ -1,0 +1,32 @@
+{
+  "name": "pong",
+  "version": "0.9.99",
+  "description": "Sample Ping Pong League Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "express": "^4.15.5",
+    "mocha": "^3.5.3",
+    "path": "^0.12.7",
+    "sqlite": "^2.8.0",
+    "webtest": "^0.8.2"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnjkrcmarik/pingpong"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "John Krcmarik",
+  "license": "MIT"
+}
